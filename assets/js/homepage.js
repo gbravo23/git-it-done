@@ -39,7 +39,7 @@ var formSubmitHandler = function (event) {
 };
 
 var displayRepos = function (repos, searchTerm) {
-    if (repoEl.length === 0) {
+    if (repos.length === 0) {
         repoContainerEl.textContent = "No repositories found.";
         return;
     }
